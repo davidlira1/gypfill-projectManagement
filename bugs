@@ -1,0 +1,4 @@
+Error: DispInvoke: Open The remote procedure call failed.
+idk how i ended up actually opening up the excel.
+maybe i wasn't restarting my server correctly, so maybe it kept running previous code
+even though i was making possibly the correct changes?

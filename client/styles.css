@@ -1,0 +1,55 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color:  rgb(100, 129, 172);
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 32px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.list-projects {
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+.row_project {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fill, 25%); */
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+.row_project:hover {
+    background-color: rgb(100, 129, 172);
+    color: white;
+}
+
+
+.col_project {
+    flex: 1 1 200px;
+    padding-left: 5%;
+}   
+
+.viewEstimateLink {
+    opacity: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.viewEstimateLink:hover {
+    opacity: 1;
+}
+

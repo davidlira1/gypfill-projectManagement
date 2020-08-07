@@ -1,0 +1,26 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "winax": "^1.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack -d --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
